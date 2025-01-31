@@ -1,10 +1,10 @@
-import { GrFormAdd } from "react-icons/gr";
-import Button from "../Button";
 import React from "react";
-import { RiDeleteBack2Fill, RiDeleteBin5Fill } from "react-icons/ri";
-import CustomSwitch from "../Switch";
+import { GrFormAdd } from "react-icons/gr";
+import { RiDeleteBin5Fill } from "react-icons/ri";
+import Button from "../Button";
 import MainContainer from "../MainContainer";
 import AppLayout from "../PersistentDrawer";
+import CustomSwitch from "../Switch";
 
 const ToDolist = () => {
   const [task, setTask] = React.useState("");

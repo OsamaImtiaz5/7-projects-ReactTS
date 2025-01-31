@@ -1,9 +1,9 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Balance from "./components/Expenses/Balance";
 import MainContainer from "./components/MainContainer";
 import PasswordGenerator from "./components/Password Generator/PasswordGenerator";
 import AppLayout from "./components/PersistentDrawer";
 import ToDolist from "./components/ToDO List/ToDolist";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WeatherCard from "./components/Weather/WeatherCard";
 
 function App() {

@@ -1,8 +1,8 @@
 import * as React from "react";
-import CustomSwitch from "../Switch";
 import Button from "../Button";
-import AppLayout from "../PersistentDrawer";
 import MainContainer from "../MainContainer";
+import AppLayout from "../PersistentDrawer";
+import CustomSwitch from "../Switch";
 
 const PasswordGenerator = () => {
   // const [checked, setChecked] = React.useState(true);
