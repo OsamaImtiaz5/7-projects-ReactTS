@@ -114,7 +114,7 @@ const QuizApp = () => {
     return (
       <AppLayout>
         <MainContainer heading="Trivia Quiz App">
-          <div className="flex flex-col items-center justify-center gap-4 bg-black text-white p-4 w-96  rounded-2xl">
+          <div className="flex flex-col items-center justify-center gap-4 bg-black text-white p-4  rounded-2xl">
             <h2 className="text-2xl font-bold">Quiz Complete! 🎯</h2>
             <p className="text-lg">
               {score}/{questions.length} Correct Answers
@@ -151,7 +151,7 @@ const QuizApp = () => {
   return (
     <AppLayout>
       <MainContainer heading="Trivia Quiz App">
-        <div className="bg-black text-white p-4 w-96 rounded-2xl">
+        <div className="bg-black text-white p-2 rounded-xl size-min ">
           <div className="font-bold">
             <span>
               Question {currentQuestionIndex + 1} of {questions.length}

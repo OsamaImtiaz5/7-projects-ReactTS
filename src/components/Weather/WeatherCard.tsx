@@ -84,7 +84,7 @@ const WeatherCard = () => {
   return (
     <AppLayout>
       <MainContainer heading="Weather App">
-        <div className="bg-gradient-to-r from-cyan-500 to-blue-500 w-[500px] h-[420px] pt-4 mt-4 m-auto">
+        <div className="bg-gradient-to-r from-cyan-500 to-blue-500  h-[420px] pt-4 mt-4 m-auto rounded-2xl">
           <div className="flex flex-row justify-between items-center bg-white rounded-2xl p-2 m-4">
             <input
               type="text"

@@ -19,11 +19,11 @@ function App() {
             element={
               <AppLayout>
                 <MainContainer heading="Welcome">
-                  <div className="h-screen bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-300 text-center">
+              
                     <h1 className="text-3xl  font-bold pt-16 text-pink-500  ">
                       Select Apps To Display
                     </h1>
-                  </div>
+                  
                 </MainContainer>
               </AppLayout>
             }
