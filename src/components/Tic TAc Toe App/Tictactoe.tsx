@@ -1,8 +1,8 @@
-import React, { useRef, useState } from "react";
-import AppLayout from "../PersistentDrawer";
-import MainContainer from "../MainContainer";
+import { useRef, useState } from "react";
 import Circle from "../../assets/download (1).png";
 import Cross from "../../assets/download (2).png";
+import MainContainer from "../MainContainer";
+import AppLayout from "../PersistentDrawer";
 
 const Tictactoe = () => {
   const [data, setData] = useState(Array(9).fill("")); // Stores board state
