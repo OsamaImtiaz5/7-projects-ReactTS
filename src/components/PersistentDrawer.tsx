@@ -30,7 +30,7 @@ const routes: Record<string, { path: string; label: string; role?: string }> = {
     label: "Weather App",
   },
   "Currency Converter App": {
-    path: "/currency-converter ",
+    path: "/currency-converter",
     label: "Currency Converter  App",
   },
   "Quiz App": {
@@ -95,7 +95,7 @@ const Drawer: React.FC<{ isOpen: boolean; onClose: () => void }> = ({
 
       {/* Drawer Content */}
       <ul className="divide-y divide-gray-600 h-[calc(100vh-64px)] overflow-y-auto scrollbar-thin scrollbar-thumb-purple-600 scrollbar-track-gray-300">
-        {Object.keys(routes).map((key, index) => {
+        {Object.keys(routes).reverse().map((key, index) => {
           const { path, label, role } = routes[key];
 
           // Role-based filtering (only show items accessible by the user's role)

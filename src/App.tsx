@@ -6,6 +6,8 @@ import AppLayout from "./components/PersistentDrawer";
 import ToDolist from "./components/ToDO List/ToDolist";
 import WeatherCard from "./components/Weather/WeatherCard";
 import CurrencyConverter from "./components/Currency Converter App/CurrencyConverter";
+import QuizCard from "./components/Quiz APP/QuizCard";
+import Tictactoe from "./components/Tic TAc Toe App/Tictactoe";
 
 function App() {
   return (
@@ -31,7 +33,8 @@ function App() {
           <Route path="/expense-tracker" element={<Balance />} />
           <Route path="/weather" element={<WeatherCard />} />
           <Route path="/currency-converter" element={<CurrencyConverter />} />
-          {/* Add other routes here */}
+          <Route path="/quiz-app" element={<QuizCard />} />
+          <Route path="//tic-tac-toe" element={<Tictactoe />} />
         </Routes>
       </BrowserRouter>
     </>
